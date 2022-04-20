@@ -6,6 +6,10 @@ and this project adheres to
 
 ## [Unreleased]
 
+## Changed
+
+- all: Upgrade cosmjs-types to 0.5.
+
 ## [0.28.4] - 2022-04-15
 
 ### Added
