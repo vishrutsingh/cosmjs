@@ -109,7 +109,7 @@ After creating the wallet, a transaction can be signed and brodcasted. This is d
     console.log(result);
     ```
     Response:
-    ```JSON
+    ```js
     {
       code: 0,
       height: 5891650,
@@ -189,7 +189,7 @@ For queries we create a query client using the stargate client. This client can 
     const queryClient =  await client.getQueryClient();
     console.log(await qclient.bank.balance("cosmos123...", "uatom"))
     ```
-    ```json
+    ```js
     { denom: 'uatom', amount: '1093492050' }
     ```
 - **Get Validators**
@@ -198,7 +198,7 @@ For queries we create a query client using the stargate client. This client can 
     const tmclient =  await client.getTmClient();
     console.log(await tmclient.validatorsAll());
     ```
-    ```json
+    ```js
     {
       blockHeight: 5891945,
       count: 8,
@@ -230,7 +230,7 @@ For queries we create a query client using the stargate client. This client can 
     const qclient =  await client.getQueryClient();
     console.log(await qclient.tx.getTx("4C29F003EE1923017D43D21F62CB64F39036D0DAC322B4EA589CA9E6B898B51A"));
     ```
-    ```json
+    ```js
     {
         tx: {
           signatures: [ [Uint8Array] ],
