@@ -401,7 +401,7 @@ const result = await client1.broadcastTx(cosigned);
 console.log("Broadcasting result:", result);
 ```
 
-
+For more information on various modules please check the [Developer Portal](https://deploy-preview-983--sdk-tutorials.netlify.app/academy/xl-cosmjs/first-steps.html#test-net-preparation)
 
 ## Things we built with CosmJS
 
